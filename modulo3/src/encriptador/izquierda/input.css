@@ -1,0 +1,11 @@
+.input {
+	float: left;
+	margin-left: 10%;
+	margin-top: 10%;
+	width: 80%;
+	height: 80%;
+	font-size: 20px;
+	outline: none;
+	border: none;
+	background: #F3F5FC;
+}

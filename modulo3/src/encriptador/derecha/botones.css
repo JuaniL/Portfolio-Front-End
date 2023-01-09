@@ -1,0 +1,25 @@
+#boton__encriptar {
+	padding: 24px;
+	width: 30%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: 10%;
+	background: #0A3871;
+}
+#boton__desencriptar {
+	padding: 24px;
+	width: 30%;
+	height: 60%;
+	border-radius: 24px;
+	margin-left: : : 10%;
+	background: #D8DFE8;
+}
+#copiar {
+	margin-left: 33%;
+	margin-top: 90%;
+	width: 40%;
+	height: 10%;
+	background: #D8DFE8;
+	border-radius: 24px;
+	display: none;
+}

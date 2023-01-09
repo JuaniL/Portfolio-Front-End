@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+	<title>Encriptador Desencriptador</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="body.css">
+	<link rel="stylesheet" type="text/css" href="contenedor.css">
+	<link rel="stylesheet" type="text/css" href="contenedor/logo.css">
+	<link rel="stylesheet" type="text/css" href="contenedor/logo__imagen.css">
+	<link rel="stylesheet" type="text/css" href="contenedor/titulo.css">
+	<link rel="stylesheet" type="text/css" href="izquierda.css">
+	<link rel="stylesheet" type="text/css" href="izquierda/input.css">
+	<link rel="stylesheet" type="text/css" href="derecha.css">
+	<link rel="stylesheet" type="text/css" href="derecha/imagen__derecha.css">
+	<link rel="stylesheet" type="text/css" href="derecha/texto.css">
+	<link rel="stylesheet" type="text/css" href="derecha/botones.css">
+	<script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+	<div class="contenedor">
+		<div class="logo">
+			<img class="logo__imagen" src="C:\Users\Compumar\Desktop\encriptador\vector.png">
+			<h1 class="titulo">Encriptador de mensajes</h1>
+		</div>
+		<div class="izquierda">
+			<input class="input" id ="input__dos" type="text" placeholder="Ingrese el texto aqui">
+		</div>
+		<div class="derecha">
+			<img src="C:\Users\Compumar\Desktop\encriptador\Muñeco.png" id="imagen__derecha">
+			<h1 id="texto">Ningun mensaje fue encontrado</h1>
+			<textarea id="texto2">Ingrese el texto que desees encriptar o desencriptar</textarea>
+			<button id = "copiar" onclick="copiar()">Copiar</button>
+		</div>
+		<div class="botones">
+			<p>Solo minusculas y sin acentos</p>
+			<button id="boton__encriptar" onclick="encriptar()">Encriptar</button>
+			<button id="boton__desencriptar" onclick="desencriptar()">Desencriptar</button>
+		</div>
+	</div>
+</body>
+</html>
